@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Memuat gambar
-image = Image.open('fotocowok.jpeg')
+image = Image.open('example.jpeg')
 
 # Menyimpan gambar
 image.save('result.jpg')

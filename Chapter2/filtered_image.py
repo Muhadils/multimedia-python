@@ -1,8 +1,8 @@
 from PIL import Image, ImageFilter
 
 # Memuat gambar
-image = Image.open('fotocowok.jpeg')
+image = Image.open('example.jpeg')
 
-# Menerapkan filter ke gambar
+# Filtering
 filtered_image = image.filter(ImageFilter.BLUR)
 filtered_image.save('filtered_result.jpg')

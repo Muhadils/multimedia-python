@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Memuat gambar
-image = Image.open('fotocowok.jpeg')
+image = Image.open('example.jpeg')
 
 # Cropping
 cropped_image = image.crop((10, 10, 200, 200))
